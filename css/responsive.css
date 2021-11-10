@@ -1,0 +1,588 @@
+/* extra small device responsive css start */
+@media(min-width: 50px) and (max-width: 576px) {
+
+	.navbar .navbar-brand {
+		transform: skewX(0deg);
+		background: none;
+		padding: 10px 0;
+	}
+
+	.navbar .navbar-brand img {
+		transform: skewX(0deg);
+	}
+
+	.navbar-toggler {
+		background: #fff;
+		border-radius: 2px;
+	}
+
+	.navbar-toggler span {
+		color: var(--bclr);
+	}
+
+	.navbar .navbar-nav .nav-item {
+		background: #fff;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link {
+		color: var(--bclr);
+	}
+
+	#banner .banner-item {
+		padding-top: 150px;
+	}
+
+	#banner .banner-item .banner-text h3 {
+		font-family: var(--oswald);
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	#banner .banner-item .banner-text h1 {
+		font-family: var(--oswald);
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	#banner .banner-item .banner-text p {
+		font-family: var(--open);
+		font-size: 13px;
+		font-weight: 400;
+		color: #f7f7f7;
+		line-height: 18px;
+	}
+
+	#banner .banner-item .banner-text a {
+		font-family: var(--oswal);
+		font-size: 16px;
+		font-weight: 500;
+		color: #f7f7f7;
+		background: none;
+		padding: 0 20px;
+		line-height: 34px;
+		margin-right: 30px;
+		border-radius: 0;
+		position: relative;
+		z-index: 1;
+		overflow: hidden;
+		transition: all linear 0.4s;
+		-o-transition: all linear 0.4s;
+		-ms-transition: all linear 0.4s;
+		-moz-transition: all linear 0.4s;
+		-webkit-transition: all linear 0.4s;
+	}
+
+	#about {
+		padding-top: 30px;
+	}
+
+	#about .about-text {
+		margin-bottom: 20px;
+	}
+
+	#gallery {
+		padding-top: 30px;
+	}
+
+	#team {
+		padding-top: 30px;
+	}
+
+	#testimonial .test-item .feedback h3 {
+		margin-top: 15px !important;
+	}
+
+	#testimonial .test-item .feedback-img img {
+		width: 100%;
+	}
+
+	#plans {
+		margin-top: 30px;
+	}
+
+	#plans .plan-item {
+		margin-bottom: 30px;
+	}
+
+	#counter {
+		margin-top: 30px;
+	}
+
+	#classes {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#classes .days .nav .nav-item {
+		background: #f1f1f1;
+		padding: 0 !important;
+		width: 49%;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item {
+		width: 48.6%;
+		transition: all linear 0.2s;
+		-o-transition: all linear 0.2s;
+		-ms-transition: all linear 0.2s;
+		-moz-transition: all linear 0.2s;
+		-webkit-transition: all linear 0.2s;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item p {
+		font-size: 12px;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item p:last-of-type {
+		font-size: 12px;
+
+	}
+
+	footer {
+		margin-top: 50px;
+	}
+
+	footer .footer-item .twitter {
+		padding-bottom: 30px;
+	}
+
+	footer .footer-item .contact ul li:nth-child(2) {
+		margin-bottom: 20px;
+	}
+
+	#backtoTOP .backtoTop {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background: transparent;
+		position: fixed;
+		bottom: 30px;
+		right: 20px;
+		z-index: 9999999;
+		display: none;
+	}
+
+	#backtoTOP .backtoTop i {
+		color: var(--bclr);
+	}
+
+
+}
+
+/* extra small device responsive css ends */
+
+
+/* small device responsive css start */
+
+@media(min-width: 576px) and (max-width: 768px) {
+	.fixed-nav {
+		height: 50px;
+	}
+
+	.navbar-toggler {
+		background: #fff;
+		position: absolute;
+		top: 20px;
+		right: 40px;
+		z-index: 888888;
+		border-radius: 2px;
+	}
+
+	.fixed-nav .navbar-toggler {
+		top: 10px;
+	}
+
+	.navbar .navbar-brand {
+		transform: skewX(0deg);
+		background: none;
+	}
+
+	.navbar .navbar-brand img {
+		transform: skewX(0deg);
+	}
+
+	.navbar-toggler {
+		background: #fff;
+		border-radius: 2px;
+	}
+
+	.navbar-toggler span {
+		color: var(--bclr);
+	}
+
+	.navbar .navbar-nav .nav-item {
+		background: #fff;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link {
+		color: var(--bclr);
+	}
+
+	#banner .banner-item {
+		padding-top: 150px;
+	}
+
+	#banner .banner-item .banner-text h3 {
+		font-family: var(--oswald);
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	#banner .banner-item .banner-text h1 {
+		font-family: var(--oswald);
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	#banner .banner-item .banner-text p {
+		font-family: var(--open);
+		font-size: 13px;
+		font-weight: 400;
+		color: #f7f7f7;
+		line-height: 18px;
+	}
+
+	#about {
+		padding-top: 30px;
+	}
+
+	#about .about-text {
+		margin-bottom: 20px;
+	}
+
+	#gallery {
+		padding-top: 30px;
+	}
+
+	#team {
+		padding-top: 30px;
+	}
+
+	#plans {
+		margin-top: 30px;
+	}
+
+	#plans .plan-item {
+		margin-bottom: 30px;
+	}
+
+	#counter {
+		margin-top: 30px;
+	}
+
+	#classes {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#classes .nav-item {
+		width: 49.7%;
+		text-align: center;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item {
+		width: 32.3%;
+		transition: all linear 0.2s;
+		-o-transition: all linear 0.2s;
+		-ms-transition: all linear 0.2s;
+		-moz-transition: all linear 0.2s;
+		-webkit-transition: all linear 0.2s;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item.last-class {
+		margin-right: 5px;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item p {
+		font-size: 12px;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item p:last-of-type {
+		font-size: 12px;
+
+	}
+
+	footer {
+		margin-top: 50px;
+	}
+
+	footer .footer-item .opening {
+		padding-bottom: 30px;
+	}
+
+	footer .footer-item .twitter {
+		padding-bottom: 30px;
+	}
+
+	footer .footer-item .contact ul li:nth-child(2) {
+		margin-bottom: 20px;
+	}
+
+}
+
+/* small device responsive css ends */
+
+
+
+/* medium device responsive css start */
+
+@media(min-width: 768px) and (max-width: 992px) {
+	.fixed-nav {
+		height: 50px;
+	}
+
+	.navbar-toggler {
+		background: #fff;
+		position: absolute;
+		top: 20px;
+		right: 40px;
+		z-index: 888888;
+		border-radius: 2px;
+	}
+
+	.fixed-nav .navbar-toggler {
+		top: 10px;
+	}
+
+	.navbar-toggler span {
+		color: var(--bclr);
+	}
+
+	.navbar .navbar-nav .nav-item {
+		background: #fff;
+		top: 30px;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link {
+		color: var(--bclr);
+	}
+
+	#banner .banner-item {
+		padding-top: 150px;
+	}
+
+	#banner .banner-item .banner-text h3 {
+		font-family: var(--oswald);
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	#banner .banner-item .banner-text h1 {
+		font-family: var(--oswald);
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	#banner .banner-item .banner-text p {
+		font-family: var(--open);
+		font-size: 13px;
+		font-weight: 400;
+		color: #f7f7f7;
+		line-height: 18px;
+	}
+
+	#about {
+		padding-top: 30px;
+	}
+
+	#about .about-text {
+		margin-bottom: 20px;
+	}
+
+	#gallery {
+		padding-top: 30px;
+	}
+
+	#team {
+		padding-top: 30px;
+	}
+
+	#plans {
+		margin-top: 30px;
+	}
+
+	#plans .plan-item {
+		margin-bottom: 30px;
+	}
+
+	#counter {
+		margin-top: 30px;
+	}
+
+	#classes {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#classes .nav-item {
+		width: 49.5%;
+		text-align: center;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item {
+		width: 32.3%;
+		transition: all linear 0.2s;
+		-o-transition: all linear 0.2s;
+		-ms-transition: all linear 0.2s;
+		-moz-transition: all linear 0.2s;
+		-webkit-transition: all linear 0.2s;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item.last-class {
+		margin-right: 5px;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item p {
+		font-size: 12px;
+	}
+
+	#classes .tab-content .tab-pane .all-class .class-item p:last-of-type {
+		font-size: 12px;
+
+	}
+
+	footer {
+		margin-top: 50px;
+	}
+
+	footer .footer-item .opening {
+		padding-bottom: 30px;
+	}
+
+	footer .footer-item .flicker ul {
+		justify-content: flex-start;
+	}
+
+	footer .footer-item .twitter {
+		padding-bottom: 30px;
+	}
+
+	footer .footer-item .contact ul li:nth-child(2) {
+		margin-bottom: 20px;
+	}
+
+}
+
+/* medium device responsive css ends */
+
+/* larg device responsive css start */
+@media(min-width: 992px) and (max-width: 1200px) {
+
+	.navbar .navbar-brand {
+		background: #323232;
+		padding: 10px 20px;
+		transform: skewX(30deg);
+	}
+
+	.navbar .navbar-brand img {
+		transform: skewX(-30deg);
+	}
+
+	.navbar .navbar-nav .nav-item {
+		background: none;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link {
+		font-family: var(--oswald);
+		font-size: 14px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #fff;
+		padding: 0 10px;
+		line-height: 50px;
+		display: block;
+		position: relative;
+		overflow: hidden;
+		z-index: 22222;
+		transition: all linear 0.4s;
+		-o-transition: all linear 0.4s;
+		-ms-transition: all linear 0.4s;
+		-moz-transition: all linear 0.4s;
+		-webkit-transition: all linear 0.4s;
+	}
+
+	.navbar .navbar-nav .active .nav-link {
+		color: #353535;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link:hover {
+		color: #353535;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: -50px;
+		left: 0;
+		background: #fff;
+		z-index: -2;
+		opacity: 0;
+		transition: all linear 0.4s;
+		-o-transition: all linear 0.4s;
+		-ms-transition: all linear 0.4s;
+		-moz-transition: all linear 0.4s;
+		-webkit-transition: all linear 0.4s;
+	}
+
+	.navbar .navbar-nav .active .nav-link::before {
+		opacity: 1;
+		top: 0;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link:hover::before {
+		opacity: 1;
+		top: 0;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 3px;
+		bottom: 0;
+		left: -100%;
+		background: var(--bclr);
+		z-index: -1;
+		opacity: 0;
+		transition: all linear 0.4s;
+		-o-transition: all linear 0.4s;
+		-ms-transition: all linear 0.4s;
+		-moz-transition: all linear 0.4s;
+		-webkit-transition: all linear 0.4s;
+	}
+
+	.navbar .navbar-nav .active .nav-link::after {
+		opacity: 1;
+		left: 0;
+	}
+
+	.navbar .navbar-nav .nav-item .nav-link:hover::after {
+		opacity: 1;
+		left: 0;
+	}
+
+	#classes .nav-item {
+		width: 16.6%;
+		text-align: center;
+	}
+
+
+	#classes .tab-content .tab-pane .all-class .class-item {
+		width: 19.4%;
+	}
+
+	footer .footer-item .opening ul li .day {
+		display: inline-block;
+		width: 95px;
+	}
+
+	footer .footer-item .twitter ul li p {
+		margin-left: 30px !important;
+		line-height: 18px;
+		width: 190px;
+	}
+
+}
+
+/* larg device responsive css ends */
